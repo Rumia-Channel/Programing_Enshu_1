@@ -19,9 +19,9 @@ int main(void)
 	compa = usrin - ranum;
 	if (compa==0){
 		printf("正解！ \n");
-	} else if (compa<5 && compa>-5){
+	} else if (compa<=5 && compa>=-5){
 		printf("めっちゃ惜しい! \n");
-	} else if (compa<10 && compa>-5){
+	} else if (compa<=10 && compa>=-10){
 		printf("惜しい！ \n");
 	} else{
 		printf("残念！ \n");
