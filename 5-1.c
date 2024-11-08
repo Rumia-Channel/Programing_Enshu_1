@@ -33,30 +33,55 @@ int ndiff(long int usrin, long int answr){
 	return 0;
 }
 
+/*整数以外が入力された際の無限ループを回避したかったが、動作せず
+long int ch_ns(char *input){
+	char *end;
+	printf(input);
+	long int rtnum = strtol(input, &end, 10);
+	if (*end != '\0'){
+		return 0;
+	}
+	return rtnum;
+}
+*/
+
 int main(void)
 {
 	long int ranum;
+	/*TEST用 動作せず
+	 * char *input;*/
 	long int usrin;
 	int min=1;
 	int max=100;
 	int retry=3;
 	int nturn=0;
-	int nmtry=0;
 
 	while(retry>nturn){
 		
 		nturn++;
-		nmtry=0;
 
 		printf("ターン%dです。 \n", nturn);
 		
+		//試行回数を初期化
+		int nmtry=0;
 		//予想処理
 		while(1){
 			nmtry++;
 			srandom((unsigned)time(NULL));
 			printf("第%d回目の予想> ", nmtry);
 			scanf("%ld", &usrin);
+			
+			/*TEST用 動作しないため保留 なぜか数値だろうが文字だろうがメモリダンプする。
+			 * scanf("%c", &input);
+			printf("TEST1");
+			usrin = ch_ns(input);
+			if (usrin==0){
+				printf("不正な文字列が入力されました。1～100までの10進数の数値のみを入力してください。\n");
+				nmtry--;
+				continue;
+			}*/
 			ranum = (random() % (max - min) + min);
+			
 			//DEBUG
 			ranum = 21;
 
