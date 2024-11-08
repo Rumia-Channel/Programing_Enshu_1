@@ -93,12 +93,12 @@
         <mxCell id="G-E8W-B7gXttlUVs6QW3-7" value="差が5以下" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="310" y="670" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="I_11ujQPMgrCS_amCTIt-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="G-E8W-B7gXttlUVs6QW3-11" target="I_11ujQPMgrCS_amCTIt-6">
+        <mxCell id="I_11ujQPMgrCS_amCTIt-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="G-E8W-B7gXttlUVs6QW3-11" target="I_11ujQPMgrCS_amCTIt-24">
           <mxGeometry relative="1" as="geometry">
+            <mxPoint x="410" as="targetPoint" />
             <Array as="points">
               <mxPoint x="690" y="710" />
               <mxPoint x="690" />
-              <mxPoint x="410" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -119,32 +119,20 @@
         <mxCell id="G-E8W-B7gXttlUVs6QW3-13" value="差が10以下" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="310" y="800" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="I_11ujQPMgrCS_amCTIt-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="G-E8W-B7gXttlUVs6QW3-15" target="I_11ujQPMgrCS_amCTIt-6">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="690" y="840" />
-              <mxPoint x="690" />
-              <mxPoint x="410" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
         <mxCell id="G-E8W-B7gXttlUVs6QW3-15" value="&quot;惜しい！&quot; と表示" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="470" y="810" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="I_11ujQPMgrCS_amCTIt-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="G-E8W-B7gXttlUVs6QW3-21" target="I_11ujQPMgrCS_amCTIt-6">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="690" y="960" />
-              <mxPoint x="690" />
-              <mxPoint x="410" />
-            </Array>
-          </mxGeometry>
         </mxCell>
         <mxCell id="G-E8W-B7gXttlUVs6QW3-21" value="&quot;残念！&quot; と表示" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="290" y="930" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="I_11ujQPMgrCS_amCTIt-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="I_11ujQPMgrCS_amCTIt-2" target="I_11ujQPMgrCS_amCTIt-6">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="I_11ujQPMgrCS_amCTIt-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="I_11ujQPMgrCS_amCTIt-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="350" y="-30" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="350" y="-30" />
+              <mxPoint x="350" y="-30" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="I_11ujQPMgrCS_amCTIt-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="I_11ujQPMgrCS_amCTIt-2" target="I_11ujQPMgrCS_amCTIt-20">
           <mxGeometry relative="1" as="geometry">
@@ -158,11 +146,10 @@
         <mxCell id="I_11ujQPMgrCS_amCTIt-2" value="繰り返し&lt;div&gt;処理が&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="310" y="-160" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="I_11ujQPMgrCS_amCTIt-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="I_11ujQPMgrCS_amCTIt-6" target="MnZCUGDg8ahDTnEChyv2-3">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="I_11ujQPMgrCS_amCTIt-6" value="入力が正解するまで&lt;div&gt;繰り返す&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="290" y="-30" width="120" height="60" as="geometry" />
+        <mxCell id="I_11ujQPMgrCS_amCTIt-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" target="MnZCUGDg8ahDTnEChyv2-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="350" y="30" as="sourcePoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="I_11ujQPMgrCS_amCTIt-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="I_11ujQPMgrCS_amCTIt-14" target="I_11ujQPMgrCS_amCTIt-2">
           <mxGeometry relative="1" as="geometry" />
@@ -172,6 +159,39 @@
         </mxCell>
         <mxCell id="I_11ujQPMgrCS_amCTIt-20" value="終了" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="290" y="1060" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="I_11ujQPMgrCS_amCTIt-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="I_11ujQPMgrCS_amCTIt-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="350" y="-220" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="I_11ujQPMgrCS_amCTIt-23" value="乱数生成、入力、&lt;div&gt;比較を繰り返す&lt;/div&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.loop_limit;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="300" y="-280" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="I_11ujQPMgrCS_amCTIt-24" value="正解するまで&lt;div&gt;繰り返す&lt;/div&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.loop_limit;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="300" y="-30" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="I_11ujQPMgrCS_amCTIt-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="G-E8W-B7gXttlUVs6QW3-15" target="I_11ujQPMgrCS_amCTIt-24">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="690" y="840" />
+              <mxPoint x="690" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="I_11ujQPMgrCS_amCTIt-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="G-E8W-B7gXttlUVs6QW3-21" target="I_11ujQPMgrCS_amCTIt-24">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="690" y="960" />
+              <mxPoint x="690" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="I_11ujQPMgrCS_amCTIt-27" value="ゲームスタート" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="290" y="-390" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="I_11ujQPMgrCS_amCTIt-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="I_11ujQPMgrCS_amCTIt-27" target="I_11ujQPMgrCS_amCTIt-23">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
